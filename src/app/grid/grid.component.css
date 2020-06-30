@@ -1,0 +1,13 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+ral-tile{
+    width: 25%;
+    height: 25%;
+    border: 1px solid #FAA;
+    display: block;
+}

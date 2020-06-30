@@ -1,3 +1,4 @@
-interface Tile {
+export interface Tile {
+  id: number;
   value: number;
 }
