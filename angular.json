@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hra2048"
+    }
+  },
+  "defaultProject": "hra2048",
+  "cli": {
+    "analytics": "dffc0ef5-a5fc-46e6-842e-d64154c5e6b2"
+  }
 }
