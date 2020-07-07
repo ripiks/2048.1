@@ -1,5 +1,5 @@
-<div class="grid" >
-    <ral-tile *ngFor="let tile of tiles" [tile]="tile">
+<div class="grid" *ngFor="let row of tiles">
+    <ral-tile *ngFor="let tile of row" [tile]="tile">
 
     </ral-tile>
 </div>

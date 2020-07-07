@@ -5,11 +5,11 @@ import { Tile } from '../game/game.model';
 @Component({
   selector: 'ral-grid',
   templateUrl: 'grid.component.html',
-  styleUrls: ['grid.component.css'],¨
+  styleUrls: ['grid.component.css'],
   
 })
 export class GridComponent implements OnInit {
-  tiles: Tile[];
+  tiles: Tile[][];
 
   constructor(private gameService: GameService) {
     this.tiles = this.gameService.tiles;
