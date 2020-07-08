@@ -6,7 +6,6 @@ import { Tile } from '../game/game.model';
   selector: 'ral-grid',
   templateUrl: 'grid.component.html',
   styleUrls: ['grid.component.css'],
-  
 })
 export class GridComponent implements OnInit {
   tiles: Tile[][];
@@ -24,22 +23,22 @@ export class GridComponent implements OnInit {
     // right arrow	39
     // down arrow	40
 
-    console.log(event.keyCode);
+    console.log(globalThis.keyCode);
 
-    if (event.keyCode === 37) {
-      this.gameService.nextStep('LEFT');
+    if (globalThis.keyCode === 37) {
+      this.gameService.keyPressed();
     }
 
-    if (event.keyCode === 38) {
-      this.gameService.nextStep('UP');
+    if (globalThis.keyCode === 38) {
+      this.gameService.keyPressed();
     }
 
-    if (event.keyCode === 39) {
-      this.gameService.nextStep('RIGHT');
+    if (globalThis.keyCode === 39) {
+      this.gameService.keyPressed();
     }
 
-    if (event.keyCode === 40) {
-      this.gameService.nextStep('DOWN');
+    if (globalThis.keyCode === 40) {
+      this.gameService.keyPressed();
     }
   }
 }

@@ -9,7 +9,7 @@ import { Tile } from '../game/game.model';
 
 export class TileComponent implements OnInit {
   @Input() tile: Tile;
-  
+
   constructor() { }
 
   ngOnInit() { }
