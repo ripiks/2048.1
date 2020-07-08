@@ -1,0 +1,14 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+ral-tile{
+
+    border: 1px solid #FAA;
+    display: block;
+    flex: 1;
+
+    position: relative;
+}
